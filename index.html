@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Café Central</title>
+        <meta name="description" content="Descubre Café Central: café de especialidad, bebidas deliciosas y un ambiente acogedor.">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+       <header>
+         <h1>Café Central</h1>
+        
+            <nav aria-label="Navegación principal">
+                <a href="#inicio">Inicio</a>
+                <a href="#carta">Carta</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+
+            </nav>
+        </header>
+        <main>
+        <section id="inicio">
+        <h2>Tu café, tu momento.</h2>
+        <p>Bienvenidos a nuestra cafetería.</p>
+        </section>
+        <section id="nosotros">
+        <h2>Nuestra historia</h2>
+        <p>Café Central nació con la idea de crear un lugar acogedor donde las personas pudieran reunirse, disfrutar de un buen café y compartir buenos momentos.</p>
+        <p> Nos apasiona el café de especialidad y cuidamos cada detalle de su preparación para ofrecer bebidas de calidad, elaboradas con ingredientes seleccionados.</p>
+        <div class="especiales">
+            <h3>¿Qué nos hace especiales?</h3>
+            <p>Seleccionamos y preparamos nuestro café de especialidad con sumo cuidado.</p>
+            <p>Un ambiente acogedor para disfrutar de cada momento.</p>
+            <p>Una atención cercana y amable.</p>
+        </div>
+        </section>
+        <section id="carta">
+        <h2>Nuestra carta</h2>
+        <div class="productos">
+            <div class="producto">
+                <h3>Café latte</h3>
+                <p>Café de especialidad recién preparado, combinado con leche cremosa y una textura suave que realza sus aromas y sabores.</p>
+                <p>2,00€</p>
+            </div>
+            <div class="producto">
+                <h3>Cappuccino</h3>
+                <p>Espresso de especialidad combinado con leche vaporizada y una capa de espuma cremosa que aporta una textura suave y equilibrada.</p>
+                <p>3,00€</p>
+            </div>
+            <div class="producto">
+                 <h3>Flat white</h3>
+                 <p>Espresso de especialidad con leche vaporizada y una fina capa de microespuma, creando una bebida intensa, sedosa y con un sabor a café protagonista.</p>
+                 <p>2,00€</p>
+            </div>
+            <div class="producto">
+                <h3>Mocha</h3>
+                <p>Una deliciosa combinación de espresso, chocolate y leche cremosa.</p>
+                <p>3,50€</p>
+            </div>
+            <div class="producto">
+                <h3>Tarta de queso</h3>
+                <p>Una cremosa tarta de queso, perfecta para acompañar tu café favorito.</p>
+                <p>4,00€ / porción.</p>
+            </div>
+        </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Ven a visitarnos y disfruta de tu café favorito.</p>
+            <p>Dirección: <a href="https://www.google.com/maps/search/?api=1&query=Calle+Mayor+10">Calle Mayor, 10</a></p>
+            <p>Horario: Lunes a sábado, de 8:00 a 20:00</p>
+            <p>Correo electrónico:</p>
+            <p><a href="mailto:hola@cafecentral.com">hola@cafecentral.com</a></p>
+            <p>Teléfono:</p>
+            <p><a href="tel:+34000000000">000 000 000</a></p>
+            <form>
+                <h3>Envíanos un mensaje.</h3>
+                <div>
+                    <label for="nombre">Nombre (obligatorio):</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div>
+                    <label for="correo">Correo electrónico (obligatorio):</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje (obligatorio):</label>
+                    <br>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        </main>
+        <a href="#inicio" class="boton-inicio">Volver al inicio</a>
+        <footer>
+            <p>© 2026 Café Central. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
